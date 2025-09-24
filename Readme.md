@@ -44,12 +44,6 @@ console.log(basket.total());
   - $90 or more → free
 - Red widget offer applies per pair: for every two `R01`, one is half-price.
 
-## Project Structure
-
-- `src/infrastructure/data/data.ts`: product catalogue
-- `src/application/use-cases/basket.ts`: basket core, delivery rules, offers
-- `tests/basket.test.ts`: example scenarios
-
 ## Scripts
 
 - `npm test` – run unit tests
