@@ -1,7 +1,7 @@
 import { BasketService } from "../src/application/services/basket.service";
 import { DefaultDeliveryRules } from "../src/domain/pricing/deliveryRules";
 import { RedWidgetBOGOHalf } from "../src/domain/pricing/offers";
-import { DefaultCatalogue } from "../src/infrastructure/catalogue/defaultCatalogue.provider";
+import { DefaultCatalogue } from "../src/infrastructure/data/defaultCatalogue.provider";
 
 describe("Acme Widget Basket", () => {
   const makeBasket = () =>
